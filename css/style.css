@@ -1,0 +1,233 @@
+@font-face {
+    font-family: alled;
+    src: url("../fonts/ALLED___.TTF");
+}
+
+@font-face {
+    font-family: anklepan;
+    src: url("../fonts/ANKLEPAN___.TTF");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Rubik+Glitch&display=swap');
+/* font-family: 'Alegreya', serif; */
+
+
+/*Reseteo el css*/
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+    /* min-height: 100vh;  */
+}
+
+/* body{
+    min-height: 100vh;
+} */
+
+main{
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+header{
+    /* display: flex;
+    /* background-color: #180606; */
+    /* justify-content:center; */
+    /* height: 120px; */
+    /* align-items: initial; */
+    /* width: 100%; */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+       /* no eliminar esto */
+.linksInicio{
+    display: flex;
+    justify-content:space-around;
+    /* background-color: rgba(1, 8, 8, 0.81); */
+    font-size: 23px;
+    }
+
+nav{
+    display: flex;
+    background-color: black;
+    list-style-type: none;
+    justify-content: space-around; 
+    max-height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+nav>ul>li{
+    display: flex;
+    border: green 5px solid;
+    border-radius: 4px;
+    padding: 0px;
+    margin: 8px 40px 8px 40px;
+    list-style-type: none;
+}
+
+/* ESTO ES LO QUE ME AYUDO A AJUSTAR EL HEADER */
+
+.logoElvies{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////TODO LO DE ARRIBA ES PARA EL HEADER SOLAMENTE */
+
+/* dato x internet para dejar las imagenes del mismo tamaño */
+
+/* main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+.titulo{
+    font-size: 800%;
+    font-weight: 700;
+    color: rgb(109, 170, 10);
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: top 10%;
+}
+
+
+
+.textoAmarillo{
+    color:yellow
+}
+
+.ozzy{
+    margin: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fotoColorado{
+    /* width: px; */
+    /* min-height: 50px; */
+    /* background: 15%; */
+    /* background-position: 10px; */
+    margin-left: 30px;
+    width: 100Wh;
+    height: 70vh;
+}
+
+.megaFoto{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gretaFoto{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    background-color:rgb(94, 24, 132);
+    background-repeat:round;
+    background-size:contain;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.seViene{
+    font-size: 50px;
+    color: brown;
+    font-family:fantasy;
+    text-align: center;
+    margin: 30px;
+    font-style: oblique;
+    margin-top: 60px;
+}
+
+.nletra{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 500%;
+    color: rgb(141, 28, 32);
+}
+
+article>h3{
+    font-family: anklepan;
+    font-size: 40px;
+}
+
+article>p{
+    font-family: alled;
+    font-size: 25px;
+
+
+
+}
+.bordes{
+    border-width: 10px;
+}
+
+#fernet{
+    font-size: 20px;
+    color: blue;
+    font-family: fantasy;
+    margin-right: 10%;
+    text-align: right;
+    text-decoration: dashed ;
+    
+}
+
+.blacki__portada{
+    border-radius: 20px;
+}
+
+.blacki__boton{
+    border-radius: 20px;
+    border-top: solid 10px black;
+    border-left: solid 10px black;
+    border-bottom: solid 10px black;
+    border-right: solid 10px black ;
+    color: rgb(163, 25, 25);
+    margin: 25px;
+    font-size: 24px;
+    padding: 10px 10px 10px 5px;
+    border-style: double; 
+    border-color: chocolate;
+}
+
+.blacki__boton--fondoAzul{
+    background-color: blue;
+}
+
+.blacki__boton--fondoVerde{
+    background-color: rgb(6, 165, 41);
+}
+
+.mega__imagenH{
+    width: 70%;
+
+.caja{
+    width: 180px;
+    height: 180px;
+    background-color:
+}
+
+div{}
+
+
+
+#pie{
+    background-color: gray
+}
